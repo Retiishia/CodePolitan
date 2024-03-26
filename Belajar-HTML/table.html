@@ -6,18 +6,25 @@
     <title>Table</title>
 </head>
 <body>
-    <table >
+    <nav>
+        <!-- Page Another File -->
+        <a href="dasar.html">Dasar Page</a>
+        <a href="about.html">About Page</a>
+        <a href="picture.html">Picture Page</a>
+        <a href="semantic.html">Semantic</a>
+        <a href="form.html">Form</a>
+    </nav>
+    <table border="1">
+        <thead>
         <tr>
-            <th>Negara</th>
-            <th>Ibukota</th>
-            <th>Populasi</th>
+            <th rowspan="2">Negara</th>
+            <th rowspan="2">Ibukota</th>
+            <th rowspan="2">Populasi</th>
         </tr>
-        <tr>
-            <td>Tiongkok</td>
-            <td>Beijing</td>
-            <td>20.000.000</td>
-        </tr>
+        
+        </thead>
 
+        <tbody>
         <tr>
             <td>Rusia</td>
             <td>Moskow</td>
@@ -29,6 +36,21 @@
             <td>Tokyo</td>
             <td>40.000.000</td>
         </tr>
+
+        <tr>
+            <td>Tiongkok</td>
+            <td>Beijing</td>
+            <td>20.000.000</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <th>Negara</th>
+            <th>Ibukota</th>
+            <th>Populasi</th>
+        </tr>
+    </tfoot>
     </table>
 </body>
 </html>
