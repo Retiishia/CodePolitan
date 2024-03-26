@@ -1,2 +1,4 @@
 # CodePolitan
-Pembelajaran Full Stack Developer
+Pembelajaran Front End Developer dalam Kelas FullStack  
+
+https://www.codepolitan.com
