@@ -49,6 +49,7 @@
             <label for="Baju">Baju :</label>
             <input type="radio" name="baju" id="" value="kemeja" checked> <label for="">Kemeja</label>
             <input type="radio" name="baju" id="" value="kaos"> <label for="">Kaos</label>
+            <input type="radio" name="jaket" id="" value="jaket"> <label for="">Jaket</label>
         </div>
         
         <div>
@@ -62,10 +63,43 @@
         </div>
         
         <div>
+            <label for="warna">Warna</label>
+            <select name="warna" id="warna">
+                <option value="" checked>-</option>
+                <option value="kuning">Kuning</option>
+                <option value="biru">Biru</option>
+                <option value="hitam">Hitam</option>
+                <option value="putih">Putih</option>
+                <option value="hijau">Hijau</option>
+            </select>
+        </div>
+
+        <div>
             <label for="term">Sesuai Pesanan</label>
-            <input type="checkbox" name="term" id="term">
+            <input type="checkbox" name="term" id="term" value="benar">
+        </div>
+        
+        <div>
+            <p>
+                <label for="notes">Catatan</label>
+                <textarea name="notes" placeholder="Catatan Penting" cols="30" rows="5"></textarea>
+            </p>
         </div>
         <button type="submit">Order</button>
     </form>
+
+    <hr>
+
+    <div>
+        <h1>Validasi</h1>
+        <form action="valid">
+            <input type="text" name="input" minlength="5" maxlength="10">
+            <input type="number" name="number" id="number" min="0" max="10">
+            <input type="date" name="date" id="date">
+            <input type="file" name="file" id="file">
+        </form>
+    </div>
+    <button type="submit">Kirim</button>
+    
 </body>
 </html> 
