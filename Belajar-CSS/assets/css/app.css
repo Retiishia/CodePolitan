@@ -1,12 +1,20 @@
-button {
-    color: darkviolet;
-    background-color: lightblue;
-}
 
 p {
-    color: white;
-    background-color: black;
     font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
+    text-align: justify;
+    font-weight: 600;
 }
 
+h3 {
+    font-weight: 550;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline dotted red;
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    
+}
