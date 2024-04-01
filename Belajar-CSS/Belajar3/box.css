@@ -1,0 +1,12 @@
+div {
+    width: 300px;
+    padding: 15px;
+    margin: 20px;
+}
+
+div {
+    border-style: dotted;
+    border-width: 4px;
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+}
