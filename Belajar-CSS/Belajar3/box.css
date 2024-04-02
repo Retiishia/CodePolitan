@@ -1,12 +1,23 @@
 div {
     width: 300px;
-    padding: 15px;
     margin: 20px;
 }
 
 div {
-    border-style: dotted;
-    border-width: 4px;
-    border-top-width: 10px;
-    border-bottom-width: 10px;
+    border-style: dotted dashed solid double;
+    border-width: 4px 8px 12px 16px;
+    border-color: aqua;
+}
+
+body {
+    background: grey;
+}
+
+div {
+   /* padding-top: 10px;
+   padding-right: 40px;
+   padding-bottom: 10px;
+   padding-left: 40px; */
+   /* padding: 10px 40px; Horizontal dan Vertical */
+   padding: 10px 100px 40px 50px;
 }
