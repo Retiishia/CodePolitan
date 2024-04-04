@@ -1,0 +1,19 @@
+h1 {
+    background-color: aquamarine;
+    border: 1px solid black;
+    width: 500px;
+    padding: 100px;
+    margin: 50px;
+    display: none;
+}
+
+span    {
+    background-color: grey;
+    border: 1px solid black;
+    /* Inline element tidak bisa sama sekali menggunakan
+    width, padding dan margin, walaupun bisa hanya bisa menggunakan
+    ke kanan dan ke kiri saja, namun atas dan bawah tidak mempengaruhi */
+    width: 500px;
+    padding: 100px;
+    margin: 50px;
+}
