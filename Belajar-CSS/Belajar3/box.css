@@ -14,10 +14,7 @@ body {
 }
 
 div {
-   /* padding-top: 10px;
-   padding-right: 40px;
-   padding-bottom: 10px;
-   padding-left: 40px; */
-   /* padding: 10px 40px; Horizontal dan Vertical */
-   padding: 10px 100px 40px 50px;
+   margin: 50px 50px 50px 50px;
+   padding: 10px 100px 40px 50px; /*Atas Kanan Bawah Kiri*/
 }
+
