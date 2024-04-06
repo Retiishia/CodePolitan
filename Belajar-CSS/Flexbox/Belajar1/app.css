@@ -9,10 +9,10 @@ h1 {
     margin: 0 auto;
     border: 5px solid #003049;
     display: flex;
-    flex-direction: column;
+    flex-wrap: warp;
+    flex-direction: center;
     justify-content: center;
-    flex-wrap: wrap;
-    align-items: warp-reverse;
+    align-items: center;
 }
 
 #container div {
@@ -20,4 +20,14 @@ h1 {
     height: 200px;
     font-size: 30px;
     color: white;
+}
+
+div:nth-of-type(2) {
+    align-self: flex-end;
+}
+div:nth-of-type(3) {
+    align-self: flex-start;
+}
+div:nth-of-type(4) {
+    align-self: initial;
 }
