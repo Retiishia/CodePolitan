@@ -38,3 +38,21 @@ div:nth-of-type(4) {
 div:nth-of-type(5) {
     flex-grow: 1;
 }
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+}
+
+main .sidebar {
+    background-color: #003049;
+    flex: 1 2 300px;
+}
+
+main .content {
+    background-color: cadetblue;
+    flex: 2 1 800px;
+}
