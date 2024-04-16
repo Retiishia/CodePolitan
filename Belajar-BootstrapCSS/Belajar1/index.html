@@ -10,13 +10,22 @@
 <body>
     <div class="container">
     <h1>Hello World!</h1>
-    <button class="btn btn-primary">Primary</button>
+    <button class="btn btn-primary">Notifications
+        <span class="badge text-bg-secondary">5</span>
+    </button>
     <button class="btn btn-warning text-white">Warning</button>
     <button class="btn btn-outline-secondary">Secondary</button>
     <button class="btn btn-primary btn-lg">Large Button</button>
     <button class="btn btn-primary btn-sm">Small Button</button>
     <button type="button" class="btn btn-outline-danger" disabled>Close</button>
     <input type="reset" value="Reset" class="btn btn-warning">
+
+    <button type="button" class="btn btn-outline-info position-relative">ALERT
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            99+
+            <span class="visually-hidden">Unread Message</span>
+        </span>
+    </button>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quae blanditiis. Ullam corporis natus suscipit beatae animi, necessitatibus aperiam dignissimos ex, architecto repellat aliquam, libero cupiditate esse inventore fuga quo.
     Ad quasi fugiat aspernatur mollitia voluptates asperiores, cumque amet quo ratione sapiente! Est dolor explicabo porro odio illum autem quam, officiis error ratione deleniti architecto doloremque facere deserunt tempore consequatur.
     Mollitia, corporis consequuntur? Tenetur, voluptates culpa, voluptatibus accusamus molestiae cupiditate quo ducimus non quis ullam aut aliquam nobis ex, quos voluptas asperiores alias deserunt. Delectus deserunt saepe rerum facilis nostrum!</p>
@@ -42,6 +51,53 @@
         </figcaption>
     </figure>
 
+    <div class="btn-group">
+        <a href="#" class="btn btn-primary active" aria-current="page">Show</a>
+        <a href="#" class="btn btn-info">Edit</a>
+        <a href="#" class="btn btn-danger">Delete</a>
+      </div>
+
+      <br><br>
+
+      <div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
+        <button type="button" class="btn btn-outline-primary">Left</button>
+        <button type="button" class="btn btn-outline-primary">Middle</button>
+        <button type="button" class="btn btn-outline-primary">Right</button>
+      </div>
+      <br>
+      <div class="btn-group" role="group" aria-label="Default button group">
+        <button type="button" class="btn btn-outline-primary">Left</button>
+        <button type="button" class="btn btn-outline-primary">Middle</button>
+        <button type="button" class="btn btn-outline-primary">Right</button>
+      </div>
+      <br>
+      <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
+        <button type="button" class="btn btn-outline-primary">Left</button>
+        <button type="button" class="btn btn-outline-primary">Middle</button>
+        <button type="button" class="btn btn-outline-primary">Right</button>
+      </div>
+
+      <br><br>
+      <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+        <span class="visually-hidden">Loading...</span>
+      </button>
+
+      <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+        <span role="status">Loading...</span>
+      </button>
+
+      <br><br>
+
+      <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-grow spinner-grow-sm" aria-hidden="true"></span>
+        <span class="visually-hidden" role="status">Loading...</span>
+      </button>
+      <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-grow spinner-grow-sm" aria-hidden="true"></span>
+        <span role="status">Loading...</span>
+      </button>
     </div>
 
 
