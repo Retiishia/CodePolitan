@@ -1,1 +1,0 @@
-console.log("ini adalah percobaan ea")
