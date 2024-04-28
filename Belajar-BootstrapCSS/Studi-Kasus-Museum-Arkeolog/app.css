@@ -1,6 +1,6 @@
 body {
-    background : #7997d8;
-    font-family: 'Nunito Sans', sans-serif;
+    background: #c2ded1;
+    font-family: 'Nunito', sans-serif;
 }
 
 #navbar {
@@ -13,12 +13,17 @@ body {
 }
 
 #navbar .nav-link:hover {
-    color: #354259
+    color: #354259;
 }
 
 #navbar .navbar-brand {
     color: #354259;
     font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+    background-color: #c2ded1;
+    /*transition: background 500ms;*/
 }
 
 #title-head {
@@ -36,17 +41,17 @@ body {
     color: #3f4e4f;
     font-weight: 100;
     font-size: 1.125rem;
+    line-height: 2;
 }
 
-.content {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
+/*.content {*/
+/*    margin-top: 100px;*/
+/*    margin-bottom: 100px;*/
+/*}*/
 
 @media (max-width: 1200px) {
     #title-head h1 {
-        font-size: 3rem;
         font-weight: 100;
-        
+        font-size: 3rem;
     }
 }
