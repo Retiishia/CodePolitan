@@ -1,7 +1,7 @@
 <?php
-for ($x = 0; $x <= 1000; $x++) {
+$x = 1;
+do {
     echo "Nomor Antrian yang tersedia: $x <br>";
-}
-
-
+    $x++;
+} while ($x <= 15);
 ?>
