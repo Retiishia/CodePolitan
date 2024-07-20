@@ -5,3 +5,4 @@ if ($nilai >= 65) { //dijalankan ketika kondisinya true
 } else { //dijalankan ketika kondisinya false
     echo "Mohon maaf Anda Tidak Lulus";
 }
+?>

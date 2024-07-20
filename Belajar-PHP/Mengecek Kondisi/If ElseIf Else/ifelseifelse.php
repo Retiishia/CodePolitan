@@ -9,3 +9,4 @@ if ($nilai >= 85) {
 } else {
     echo "Anda mendapat Nilai D";
 }
+?>

@@ -12,3 +12,4 @@ for ($baris = 0; $baris < 3; $baris++) {
     }
     echo "</ul>";
 }
+?>

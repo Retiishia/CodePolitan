@@ -17,3 +17,4 @@ if ($psikotes >= 80) {
 } else {
     echo "Mohon Maaf Anda tidak Lulus Psikotes";
 }
+?>

@@ -24,3 +24,4 @@ $round1 = 10;
 $round2 = 3;
 $hasil1 = $round1 / $round2;
 echo round($hasil1, 2); //membulatkan dan hanya mengeluarkan 2 digit float dibelakang.
+?>
