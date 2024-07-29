@@ -14,6 +14,14 @@ const eventbtn = document.querySelector('#eventbtn');
 eventbtn.addEventListener('click', stepSatu);
 eventbtn.addEventListener('click', stepDua);
 
+/**
+ * This function is called when the 'click' event is triggered on the '#eventbtn' element.
+ * It logs the message 'Step Satu' to the console.
+ */
+function stepSatu () {
+    // Log the step message to the console
+    console.log('Step Satu');
+}
 function stepSatu () {
     console.log('Step Satu');
 }
