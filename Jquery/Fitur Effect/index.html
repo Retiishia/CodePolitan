@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitur Effect</title>
+</head>
+<body>
+    <h1>Kemana Kamu Ingin Pergi?</h1>
+    <ul class="lokasi">
+        <li class="bandung">
+            Bandung
+            <button id="tombol">Buka</button>
+            <button id="hide">Hide</button>
+            <button id="hapus">Hapus</button>
+        </li>
+        <li class="surabaya">Surabaya</li>
+        <li class="jakarta">Jakarta</li>
+    </ul>
+    <button id="toggle">Toggle</button>
+
+
+    <script src="jquery-3.7.1.min.js"></script>
+
+    <script> 
+        $(document).ready(function () {
+            $('#tombol').on('click', function () {
+                alert('BUKA PALA BAPAK KAO!');
+            })
+            $('#hapus').on('click', function () {
+                $('.bandung').remove();
+                alert('Bandung Di Hapus! :( ');
+            })
+            $('#hide').on('click', function () {
+                $('.bandung').fadeOut(2000);
+            })
+            $('#toggle').on('click', function () {
+                $('.bandung').fadeToggle(2000);
+            })
+        })
+    </script>
+</body>
+</html>

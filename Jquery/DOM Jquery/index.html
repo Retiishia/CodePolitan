@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Jquery</title>
+</head>
+<body>
+    <h1>Kemana Kamu Akan Pergi?</h1>
+    <ul class="lokasi">
+        <li class="bandung">Bandung</li>
+        <li class="surabaya">
+            <strong>Surabaya</strong>
+        </li>
+        <li>Jakarta</li>'
+        <li>
+            <input type="text" class="inputan" value="90">
+        </li>
+    </ul>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script>
+        // ADD
+        // $(document).ready(function(){
+        //     var jogja = $('<li>Yogyakarta</li>');
+        //     var bali = $('<li>Bali</li>');
+        //     var subjudul = $('<h2>Pilih Destinasimu Sekarang Juga!</h2>');
+        //     var skrng = $('<h3>Sekarang Juga!</h3>');
+        
+
+        //     $('.lokasi').prepend(jogja);
+        //     $('.lokasi').append(bali);
+        //     $('.lokasi').before(subjudul);
+        //     $('.lokasi').after(skrng);
+        // });
+
+        // // GET
+        // $(document).ready(function() {
+        //     console.log($('.inputan').val());
+        // });
+
+        // // SET
+        // $(document).ready(function() {
+        //     $('bandung').text('Cimahi');
+        //     $('surabaya').text('<em>Surabaya</em>');
+        //     $('.inputan').val(150)
+            
+        // });
+
+        // REMOVE
+        $(document).ready(function() {
+            $('.bandung').remove(); //Menghapus dengan Element nya
+            $('.surabaya').empty(); //Hanya Menghapus Tulisan nya saja tapi tidak dengna Element nya
+        });
+    </script>
+</body>
+</html>

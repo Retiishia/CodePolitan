@@ -1,0 +1,37 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<!--Add the new slick-theme.css if you want the default styling-->
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+<head>
+<body>
+<div class="your-class">
+  <div><h1>Berita 1</h1>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+</div>
+  <div><h1>Berita 2</h1>
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. .</div>
+  <div><h1>Berita 3</h1>
+  Duis aute irure dolor in reprehenderit in voluptate 
+  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</div>
+</div>
+<button class="mypopup_open">Open popup</button>
+  <div id="mypopup">
+	Ini adalah pop up, bisa diisi dengan detail berita, detail gambar ataupun konten lain.
+    <!-- Add a button to close the popup (optional) -->
+    <button class="mypopup_close">Close</button>
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="popup/jquery.popupoverlay.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.your-class').slick({
+	  });
+    $('#mypopup').popup();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitur Effect</title>
+    <style>
+        .merah {
+            color: red;
+        }
+
+        .biru {
+            color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kemana Kamu Ingin Pergi?</h1>
+    <ul class="lokasi">
+        <li class="bandung">
+            Bandung
+        </li>
+        <li class="surabaya">Surabaya</li>
+        <li class="jakarta">Jakarta</li>
+    </ul>
+
+    <button id="gantiWarna">GANTI BIRU</button>
+    <button id="gantiWarna1">GANTI MERAH</button>
+    <button id="caps">CAPSLOCK</button>
+    <button id="back">BACK</button>
+    <button id="size">SIZE FONT</button>
+
+
+
+
+    <script src="jquery-3.7.1.min.js"></script>
+
+    <script> 
+        $(document).ready(function () {
+            $('#gantiWarna').on('click', function () {
+                $('.bandung').removeClass('merah');
+                $('.bandung').addClass('biru');
+            })
+            $('#gantiWarna1').on('click', function () {
+                $('.bandung').removeClass('biru');
+                $('.bandung').addClass('merah');
+            })
+            $('#caps').on('click', function () {
+                $('.bandung').css({
+                    'text-transform': 'uppercase'})
+            })
+            $('#back').on('click', function () {
+                $('.bandung').css({
+                    'text-transform': 'Capitalize'})
+            })
+            $('#size').on('click', function () {
+                $('.bandung').animate({
+                    'fontSize': '200px'})
+            })
+        });
+    </script>
+</body>
+</html>
