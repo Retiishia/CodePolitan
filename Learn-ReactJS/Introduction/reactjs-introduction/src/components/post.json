@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Hello World",
+        "tags": ["React.JS", "Front-End"],
+        "date": "2024-06-01"
+    },
+    {
+        "title": "Hello Indonesia",
+        "tags": ["React.JS", "CSS"],
+        "date": "2024-06-02"
+    },
+    {
+        "title": "Hello Palestine",
+        "tags": ["Next.JS", "TailwindCSS"],
+        "date": "2024-06-03"
+    }
+]
