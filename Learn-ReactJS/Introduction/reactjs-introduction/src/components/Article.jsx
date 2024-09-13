@@ -1,12 +1,20 @@
+const Status = ({isNew}) => {
+    return isNew && <span>-- NEW!!!</span>
+};
+
+const NewArticle = () => {
+    return <span>- NEW</span>
+}
 
 function Article (props) {
-    const {title} = props
-    const {date} = props
-    const {tags} = props
     return (
         <>
-            <h3>{title}</h3>
-            <small>Date : {date}, tags : {tags.join(", ")}</small>
+            <h3>{props.title}</h3>
+            <small>
+                Date : {props.date}, tags : {props.tags.join(", ")}{" "}
+                <Status isNew={props.isNew}/>
+                {props.isNew && <NewArticle/>}
+            </small>
         </>
     )
 }

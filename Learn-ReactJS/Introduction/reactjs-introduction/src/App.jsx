@@ -1,8 +1,9 @@
 import './App.css'
 import './components/Article'
-import Home from './pages/index'
+import Home from './pages/Home'
 
 function App() {
+
   return (
       <div className="App">
       <Home />
