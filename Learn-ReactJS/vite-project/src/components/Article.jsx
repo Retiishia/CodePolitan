@@ -1,5 +1,6 @@
 function Article() {
-    return <div>Ini adalah component pertama, dan kedua</div>
+    const name = "Farhan Aziz"
+    return <div>{name}</div>
 }
 
 export default Article
