@@ -1,0 +1,76 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.linkedEditing": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "codeium.enableConfig": {
+        "*": true,
+        "log": true,
+        "markdown": true,
+        "plaintext": true,
+        "mdx": true,
+        "xml": true,
+        "properties": true
+    },
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "git.autofetch": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "background.enabled": true,
+    "background.sidebar": {
+        "images": ["https://user-images.githubusercontent.com/9987486/40583670-d6478c9e-61c5-11e8-9551-6b55eacc7b8d.png"],
+        "opacity": 0.1,
+        "size": "90%",
+        "position": "bottom right",
+        "interval": 0,
+        "random": false
+    },
+    "background.panel": {
+        "images": ["https://user-images.githubusercontent.com/9987486/40583669-d6189844-61c5-11e8-89e3-c52ad153da09.png"],
+        "opacity": 0.1,
+        "size": "20%",
+        "position": "bottom right",
+        "interval": 0,
+        "random": false
+    },
+    "background.editor": {
+    
+
+    
+        "useFront": true,
+        "styles": [
+            {
+                "content": "''",
+                "pointer-events": "none",
+                "position": "absolute",
+                "right": "0",
+                "bottom": "0",
+                "width": "45%",
+                "height": "45%",
+                "z-index": "9999",
+                "background-size": "contain",
+                "opacity": 0.3
+            }
+        ],
+        "images": [
+            
+            "https://private-user-images.githubusercontent.com/60727068/471912124-acce654d-ffd9-488b-a5e8-18f59109714d.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjEwNTA3MTEsIm5iZiI6MTc2MTA1MDQxMSwicGF0aCI6Ii82MDcyNzA2OC80NzE5MTIxMjQtYWNjZTY1NGQtZmZkOS00ODhiLWE1ZTgtMThmNTkxMDk3MTRkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDIxVDEyNDAxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJiMTEwYTVjNmQwODZkOTRhNjlkMjk4YzJlMDYwNjExZDNhMTcyODY1MjY0NTA3NmZiYjk5M2RjMDkyZjFlNzImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.E30M0X2IS0dZBEKw9vT-Nx4m_CsmbFqq-eE9DJSND3s"
+        ],
+        "interval": 0,
+        "random": false,
+        "scrollWithEditor": true
+    }
+}
